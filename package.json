@@ -1,24 +1,20 @@
 {
-  "name": "static",
+  "name": "ahsanirfanca",
   "version": "1.0.0",
-  "description": "This is a static template with no bundling",
+  "description": "This is ahsanirfan.ca.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/ahsanirfan85/ahsanirfan.ca.git"
   },
-  "keywords": [
-    "static",
-    "template",
-    "codesandbox"
-  ],
+  "keywords": [],
   "author": "Ives van Hoorne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/ahsanirfan85/ahsanirfan.ca/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme"
+  "homepage": "https://github.com/ahsanirfan85/ahsanirfan.ca#readme"
 }
