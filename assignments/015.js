@@ -1,5 +1,5 @@
 // create secret number
-var secretNumber = math.random();
+var secretNumber = Math.random();
 alert(Number(secretNumber));
 
 // ask for number
