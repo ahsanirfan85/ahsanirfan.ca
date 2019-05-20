@@ -5,7 +5,7 @@
 // var secretNum = randNumRound;
 
 var secretNum = 300;
-alert(secretNum);
+alert("The secret number is: " + secretNum);
 
 // ask for number
 
