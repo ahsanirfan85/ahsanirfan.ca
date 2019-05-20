@@ -1,5 +1,7 @@
 // create secret number
-var secretNumber = 7;
+var secretNumber = math.random();
+alert(Number(secretNumber));
+
 // ask for number
 var guessString = prompt("Guess a number!");
 var guessNum = Number(guessString);
