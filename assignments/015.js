@@ -1,6 +1,7 @@
 // create secret number
-// var secretNumber = Math.round(Math.random() * 10);
-var secretNumber = 5;
+var secretNumber = Math.round(Math.random() * 10);
+console.log(secretNumber);
+// var secretNumber = 5;
 
 // ask for number
 var guessString = prompt("Guess a number between 0 & 10!");
