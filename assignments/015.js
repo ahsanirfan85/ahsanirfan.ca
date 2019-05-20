@@ -5,7 +5,7 @@ var randomNumRounded = math.round(randomNumTen);
 
 var secretNum = randomNumRounded;
 
-alert(secretNumber);
+alert(secretNum);
 
 // ask for number
 
