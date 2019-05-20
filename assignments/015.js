@@ -4,7 +4,7 @@ var secretNumber = 7;
 var guess = prompt("Guess a number!");
 
 // check number against secret number
-if (guess < secret) {
+if (guess < secretNumber) {
   alert("You guessed too low!");
 } else if (guess === secretNumber) {
   alert("Your guess is correct!");
