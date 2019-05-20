@@ -3,7 +3,7 @@ var secretNumber = math.random();
 
 // var secretNumber = math.random();
 
-alert("This is the secret number: 7");
+alert("This is the secret number: " + secretNumber);
 
 // ask for number
 
