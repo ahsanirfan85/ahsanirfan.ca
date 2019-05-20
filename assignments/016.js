@@ -1,6 +1,19 @@
-var someNumber = 1;
+// create secret number
+var secretNumber = Math.round(Math.random() * 10);
+console.log(secretNumber);
+// var secretNumber = 5;
 
-while (someNumber < 10) {
-  console.log("You are an asshole!");
-  someNumber = someNumber + 1;
+// ask for number
+var guessString = prompt("Guess a number between 0 & 10!");
+var guessNum = Number(guessString);
+
+while (guessNum !== secretNumber) {
+  // // check number against secret number
+  if (guessNum < secretNumber) {
+    guessNum = prompt("Your guess is too low! Guess again!");
+  } else if (guessNum > secretNumber) {
+    guessNum = prompt("Your guess is too high! Guess again!");
+  }
 }
+
+alert("You guess correctly!");
