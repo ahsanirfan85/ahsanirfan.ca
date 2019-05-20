@@ -4,7 +4,8 @@
 // var randNumRound = math.round(randNumTen);
 // var secretNum = randNumRound;
 
-alert(300);
+var secretNum = 300;
+alert(secretNum);
 
 // ask for number
 
