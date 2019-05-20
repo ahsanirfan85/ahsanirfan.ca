@@ -4,7 +4,7 @@
 // var randNumRound = math.round(randNumTen);
 // var secretNum = randNumRound;
 
-var ranNumRound = 30 * 10;
+var ranNumRound = 40 * 10;
 var secretNum = ranNumRound;
 alert("The secret number is: " + secretNum);
 
