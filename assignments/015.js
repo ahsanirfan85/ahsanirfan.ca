@@ -9,7 +9,7 @@ var guessNum = Number(guessString);
 
 // // check number against secret number
 if (guessNum < secretNumber) {
-  alert("Your guess is too low");
+  alert("Your guess is too low!");
 } else if (guessNum === secretNumber) {
   alert("You guessed correctly!");
 } else {
