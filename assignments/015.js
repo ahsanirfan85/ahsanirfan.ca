@@ -1,5 +1,9 @@
 // create secret number
-var secretNumber = math.random() * 10;
+var randomNum = math.random();
+var randomNumTen = randomNum * 10;
+var randomNumRounded = math.round(randomNumTen);
+
+var secretNum = randomNumRounded;
 
 alert(secretNumber);
 
