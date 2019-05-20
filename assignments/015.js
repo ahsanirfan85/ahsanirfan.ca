@@ -2,7 +2,7 @@
 
 var secretNumber = math.random();
 
-alert(secretNumber);
+alert("This is the secret number: " + secretNumber);
 
 // ask for number
 
