@@ -31,6 +31,6 @@ function kebabToSnake(text) {
   var strLength = text.Length;
   var positionOfLast = strLength + 1;
   console.log(
-    "Length of String: " + strLegnth + " Position of Last: " + positionOfLast
+    "Length of String: " + strLength + " Position of Last: " + positionOfLast
   );
 }
