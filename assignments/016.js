@@ -14,6 +14,6 @@ var evenNumbers = 10;
 while (evenNumbers <= 40) {
   if (evenNumbers % 2 === 0) {
     console.log(evenNumbers);
-    evenNumbers++;
   }
+  evenNumbers++;
 }
