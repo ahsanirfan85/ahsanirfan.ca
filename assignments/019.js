@@ -28,7 +28,7 @@ function factorial(num) {
 //function that turns kebab-case to snake-case
 
 function kebabToSnake(text) {
-  var strLength = text.length;
+  var strLength = Number(text.length);
   var positionOfLast = strLength + 1;
   console.log(
     "Length of String: " + strLength + " Position of Last: " + positionOfLast
