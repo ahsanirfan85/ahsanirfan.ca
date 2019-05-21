@@ -27,10 +27,10 @@ function factorial(num) {
 
 //function that turns kebab-case to snake-case
 
-function kebabToSnake(string) {
-  strLength = string.Length;
-  positionOfLast = strLength + 1;
-  alert(
+function kebabToSnake(text) {
+  var strLength = text.Length;
+  var positionOfLast = strLength + 1;
+  console.log(
     "Length of String: " + strLegnth + " Position of Last: " + positionOfLast
   );
 }
