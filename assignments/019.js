@@ -28,9 +28,11 @@ function factorial(num) {
 //function that turns kebab-case to snake-case
 
 function kebabToSnake(text) {
-  if (text.indexOf("-")=-1) {
-    console.log("This isn't kebab case!")
-  } else {return (
-    text.slice(0, text.indexOf("-")) + "_" + text.slice(text.indexOf("-") + 1)
-  );}
+  if (text.indexOf("-") === -1) {
+    console.log("This isn't kebab case!");
+  } else {
+    return (
+      text.slice(0, text.indexOf("-")) + "_" + text.slice(text.indexOf("-") + 1)
+    );
+  }
 }
