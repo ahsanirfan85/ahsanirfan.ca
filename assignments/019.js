@@ -31,5 +31,5 @@ function kebabToSnake(text) {
   console.log(text.length);
   console.log(text.length + 1);
   console.log(text.indexOf("-"));
-  console.log(text.slice(text.indexOf(1, "-")));
+  console.log(text.slice(0, text.indexOf("-")));
 }
