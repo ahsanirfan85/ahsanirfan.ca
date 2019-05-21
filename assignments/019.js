@@ -9,3 +9,13 @@ function isEven(input) {
 }
 
 // alert(isEven(prompt("Pick a number.")));
+
+//function that returns the factorial of a number
+
+function factorial(num) {
+  var factorial1 = num;
+  while (num < 1) {
+    factorial1 = factorial1 * (num - 1);
+    num--;
+  }
+}
