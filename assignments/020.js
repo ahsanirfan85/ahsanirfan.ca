@@ -5,7 +5,8 @@ while (input !== "quit") {
     console.log("**********");
     todos.forEach(function(todo, i) {
       console.log(i + ": " + todo);
-    }console.log("**********"););
+    });
+    console.log("**********");
   } else if (input === "new") {
     var newTodo = prompt("Enter new todo");
     todos.push(newTodo);
