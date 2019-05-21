@@ -30,5 +30,5 @@ function factorial(num) {
 function kebabToSnake(text) {
   console.log(text.length);
   console.log(text.length + 1);
-  console.long(text.indexOf("-"));
+  console.log(text.indexOf("-"));
 }
