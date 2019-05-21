@@ -14,7 +14,7 @@ function isEven(input) {
 
 function factorial(num) {
   var factorial1 = num;
-  while (num < 1) {
+  while (num > 1) {
     factorial1 = factorial1 * (num - 1);
     num--;
   }
