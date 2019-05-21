@@ -17,3 +17,13 @@ while (evenNumbers <= 40) {
   }
   evenNumbers++;
 }
+//print all odd numbers between 300 & 333
+console.log("PRINT ALL ODD NUMBERS BETWEEN 300 & 333");
+var oddNumbers = 300;
+
+while (oddNumbers <= 333) {
+  if (oddNumbers % 2 === 1) {
+    console.log(oddNumbers);
+  }
+  oddNumbers++;
+}
