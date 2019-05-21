@@ -24,3 +24,13 @@ function factorial(num) {
     return factorial1;
   }
 }
+
+//function that turns kebab-case to snake-case
+
+function kebabToSnake(string) {
+  strLength = string.Length;
+  positionOfLast = strLength + 1;
+  alert(
+    "Length of String: " + strLegnth + " Position of Last: " + positionOfLast
+  );
+}
