@@ -12,6 +12,8 @@ console.log("PRINT ALL EVEN NUMBERS BETWEEN 10 & 40");
 var evenNumbers = 10;
 
 while (evenNumbers <= 40) {
-  console.log(evenNumbers);
+  if (evenNumbers % 2 === 0) {
+    console.log(evenNumbers);
+  }
   evenNumbers++;
 }
