@@ -2,6 +2,10 @@
 
 var input = prompt("Pick any number");
 
-remainder = input % 2;
+var remainder = input % 2;
 
-alert(remainder);
+if (remainder === 0) {
+  var truthValue = true;
+}
+
+alert(truthValue);
