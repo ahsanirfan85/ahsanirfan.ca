@@ -28,9 +28,7 @@ function factorial(num) {
 //function that turns kebab-case to snake-case
 
 function kebabToSnake(text) {
-  console.log(text.length);
-  console.log(text.length + 1);
-  console.log(text.indexOf("-"));
-  console.log(text.slice(0, text.indexOf("-")));
-  console.log(text.slice(text.indexOf("-")));
+  console.log(
+    text.slice(0, text.indexOf("-")) + "_" + text.slice(text.indexOf("-") + 1)
+  );
 }
