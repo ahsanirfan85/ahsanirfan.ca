@@ -10,7 +10,11 @@ while (input !== "quit") {
   } else if (input === "new") {
     var newTodo = prompt("Enter new todo");
     todos.push(newTodo);
+  } else if (input === "delete") {
+    var index = prompt("What would you like to delete?");
   }
   input = prompt("What would you like to do?");
+  todos.splice(index, 1);
+  console.log("Deleted Todo");
 }
 console.log("OK YOU QUIT THE APP");
