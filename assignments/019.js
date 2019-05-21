@@ -8,4 +8,4 @@ function isEven(input) {
   }
 }
 
-alert(isEven(prompt("Pick a number.")));
+// alert(isEven(prompt("Pick a number.")));
