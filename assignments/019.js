@@ -6,6 +6,8 @@ var remainder = input % 2;
 
 if (remainder === 0) {
   var truthValue = true;
+} else {
+  var truthValue = false;
 }
 
 alert(truthValue);
