@@ -18,4 +18,5 @@ function factorial(num) {
     factorial1 = factorial1 * (num - 1);
     num--;
   }
+  return factorial1;
 }
