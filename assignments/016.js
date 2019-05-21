@@ -17,6 +17,7 @@ while (evenNumbers <= 40) {
   }
   evenNumbers++;
 }
+
 //print all odd numbers between 300 & 333
 console.log("PRINT ALL ODD NUMBERS BETWEEN 300 & 333");
 var oddNumbers = 300;
@@ -26,4 +27,15 @@ while (oddNumbers <= 333) {
     console.log(oddNumbers);
   }
   oddNumbers++;
+}
+
+//print all numbers divisible by 5 AND 3 between 5 & 50
+console.log("PRINT ALL NUMBERS DIVISIBLE BY 5 AND 3 BETWEEN 5 AND 50");
+var divisible = 5;
+
+while (divisible <= 50) {
+  if (divisible % 15 === 0) {
+    console.log(divisible);
+  }
+  divisible++;
 }
